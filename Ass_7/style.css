@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main {
+  width: 700px;
+  height: 500px;
+  padding: 30px;
+  margin: auto;
+  background-color: antiquewhite;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box1 {
+  display: flex;
+}
+.box {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  float: left;
+  margin: 10px;
+
+}
+.textc{
+    text-align: center;
+    padding: 30px;
+    width: 30px;
+    height: 30px;
+}
+img{
+    text-align: center;
+    display: flex;
+   margin: auto;
+    width: 30px;
+    height: 30px;
+}
