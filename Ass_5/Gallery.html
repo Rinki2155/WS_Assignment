@@ -4,8 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 1000px;
+            height: 540px;
+            border: 1px solid black;
+        }
+
+        .heading {
+            text-align: center;
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        .menu {
+            width: 100%;
+            height: 40px;
+        }
+
+        .menu1 a {
+            height: 40px;
+            text-decoration: none;
+            width: 20%;
+            float: left;
+            border: 1px solid black;
+        }
+
+        .menu2 {
+            width: 100%;
+            height: 406px;
+        }
+
+        .submenus {
+            float: left;
+            width: 25%;
+            height: 200px;
+        }
+
+        .submenus1 {
+            height: 40px;
+            width: 250px;
+            border: 1px solid black;
+            /* background-color: red; */
+        }
+
+        .submenusempt {
+            height: 206px;
+            width: 250px;
+            border: 1px solid black;
+        }
+
+        .submenus1 a {
+            text-decoration: none;
+        }
+
+        .imagewidth {
+            float: right;
+            width: 75%;
+            height: 240px;
+        }
+
+        .txtwidth {
+            float: right;
+            width: 75%;
+        }
+
+        .galleryimage {
+            width: 183px;
+            height: 199px;
+        }
+        .main3 {
+            width: 100%;
+            height: 300px;
+        }
+        .image1 {
+            width: 33%;
+            height: 150px;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +100,7 @@
 
         <div class="main">
             <div class="heading">
-                <h1>Welcome To Gallery</h1>
+                <h1>Welcome To About</h1>
             </div>
             <div class="menu">
                 <div class="menu1"><a href="Homepage.html">Home</a></div>
@@ -33,36 +116,25 @@
                     <div class="submenus1"><a href="Gallery.html">Gallery</a></div>
                     <div class="submenus1"><a href="Contact.html">Contact Us</a></div>
                     <div class="submenus1"><a href="Course.html">Course</a></div>
+                    <div class="submenusempt""><a href=" Course.html"></a></div>
                 </div>
-                <div class="imagewidth" style="align-items: center;">
-
-                    <h1>Welcome to WscubeTech</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil,<br> maxime debitis,
-                        mollitia ducimus explicabo impedit veritatis <br> id sed laudantium voluptatibus vero fugit
-                        consequuntur omnis, dolorum quos <br>reprehenderit voluptatum nobis libero. Suscipit similique <br>
-                        aspernatur aliquam.</p>
+                <div class="txtwidth" style="align-items: center;">
+                    <img src="Image/2.jpeg" alt="" class="galleryimage">
+                    <img src="Image/3.jpeg" alt="" class="galleryimage">
+                    <img src="Image/4.jpeg" alt="" class="galleryimage">
+                    <img src="Image/5.jpeg" alt="" class="galleryimage">
+                    <img src="Image/7.jpeg" alt="" class="galleryimage">
+                    <img src="Image/10.jpeg" alt="" class="galleryimage">
+                    <img src="Image/11.jpeg" alt="" class="galleryimage">
+                    <img src="Image/2.jpeg" alt="" class="galleryimage">
                 </div>
-            </div>
-            <div class="heading">
-                <h1>Our Client</h1>
             </div>
             <div class="main3">
-                <img src="1.png" alt="image2" class="image1">
-                <img src="1.png" alt="image2" class="image1">
-                <img src="1.png" alt="image2" class="image1">
                 <div style="height: 45px !important; border: 1px solid black;">
-                    <h5>Home || About || Gallery || Course</h5>
+                  <h5>Home || About || Gallery || Course</h5>
                 </div>
-            </div>
-
+              </div>
         </div>
-
-
-
     </center>
-    <!-- <div class="grid"><img src="/Image/1.png" alt="image" width="750px" height="300px"></div> -->
-
-
 </body>
-
 </html>
