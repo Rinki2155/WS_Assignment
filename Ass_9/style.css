@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+  }
+  .main-form{
+    margin: auto;
+    width: 700px;
+    height: 70vh;
+    border:  1px solid black;
+  }
+  label{
+    font-size: 22pxpx;
+    font-family: sans-serif;
+  }
+  input{
+    border-radius: 4px;
+    padding: 7px;
+    width: 340px;
+    text-align: 22px;
+}

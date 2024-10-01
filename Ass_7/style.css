@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 .main {
-  width: 700px;
-  height: 500px;
+  width: 1100px;
   padding: 30px;
+  box-sizing: border-box;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: rgb(30, 164, 194);
+  background-color: rgb(249, 243, 243);
 }
 
 .box1 {
@@ -18,14 +18,13 @@
 }
 .box {
   background-color: white;
-  box-shadow: 0px 2px 10px black;
-  height: 200px;
-  width: 200px;
+  width: 400px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   float: left;
   margin: 10px;
-  padding: 50px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .textc {
   text-align: center;
@@ -39,5 +38,4 @@ img {
   margin: auto;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
 }
