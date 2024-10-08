@@ -1,24 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <center>
-        <h1>Creating a Job Application form using Form & Inputs</h1>
-    </center>
-
-
-<div class="main-form">
+  <center>
+    <h1>Creating a Job Application form using Form & Inputs</h1><br>
+  </center>
+  <div class="main">
     <form action="/">
-        <label for="name">First Name</label> <br>
-        <input type="text" placeholder="Enter Your Name" name="name" id="name">
-    </form>
-</div>
+      <div class="formName">
+        <div>
+          <label for="firstName" class="label">FIRST NAME </label><br />
+          <input type="text" id="firstName" class="commonClass" placeholder="Enter Your Name First Name" minlength="5" maxlength="20" />
+        </div>
+        <div>
+          <label for="lastName" class="label">LAST NAME </label><br />
+          <input type="text" id="lastName" class="commonClass" placeholder="Enter Your Name Here" />
+        </div>
+      </div>
+      <div class="formName">
+        <div>
+          <label for="email" class="label">Email</label><br>
+          <input type="email" name="email" id="email" placeholder="Enter your @Email" class="commonClass">
+        </div>
+        <div>
+          <label for="number" class="label">Mobile Number</label><br>
+          <input type="number" name="number" id="number" placeholder=" Enter your Mobile Number" class="commonClass">
+        </div>
+      </div>
 
-
+      <div class="formName">
+        <div>
+          <label for="date" class="label">DOB</label><br>
+          <input type="date" name="date" id="date" placeholder="Enter your Birth Day" class="commonClass">
+        </div>
+        <div>
+          <label for="State" class="label">State</label><br>
+          <select name="name" id="State" placeholder=" Enter your Mobile Number" class="commonClass">
+            <option value="1">Patna</option>
+            <option value="2">Bihar</option>
+            <option value="3">Delhi</option>
+            <option value="4">Amnour</option>
+            <option value="5">Mumbai</option>
+          </select>
+        </div>
+      </div>
+      <div class="formName">
+        <div>
+          <label for="gender" class="label">Gender</label><br>
+          <div class="form-group">
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" value="other" name="gender">
+            <label for="other">Other</label>
+          </div>
+        </div>
+      </div>
+      <div class="formName">
+        <div>
+          <label for="address" class="label">ADDRESS</label><br>
+          <div>
+            <input type="text" class="form-group-input" name="address" id="address" placeholder="WriteYour Address">
+          </div>
+        </div>
+      </div>
+      <div class="formName">
+        <div>
+          <label for="qualification" class="label">QUALIFICATION</label><br>
+          <div class="form-group">
+            <input type="radio" id="tenth" value="tenth" name="qualification">
+            <label for="tenth"> 10TH </label>
+            <input type="radio" id="twelve" value="twelve" name="qualification">
+            <label for="twelve">12TH </label>
+            <input type="radio" id="up" value="ug" name="qualification">
+            <label for="ug">UNDER GRADUATE</label>
+            <input type="radio" id="pg" value="pg" name="qualification">
+            <label for="pg">POST GRADUATE</label>
+          </div>
+        </div>
+      </div>
+      <div class="formName">
+        <div>
+          <label for="imageupload" class="label">UPLOAD IMAGE</label><br>
+          <div class="form-group">
+            <!-- <input type="file" accept=".jpeg, .png"> -->
+            <input type="file" accept="*/video">
+          </div>
+        </div>
+      </div>
+      <div class="buttonsGroup">
+       <button type="submit" class="button">Save</button>
+       <button type="reset" class="button">Reset</button>
+      </div>
+  </div>
+  </form>
+  <div class="bottomSpace"></div>
 </body>
 </html>
